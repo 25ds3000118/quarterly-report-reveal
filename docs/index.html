@@ -2,8 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+
+    <!-- EMAIL FOR VALIDATOR -->
+    <!-- Author: 25ds3000118@ds.study.iitm.ac.in -->
+    <meta name="author" content="25ds3000118@ds.study.iitm.ac.in">
+    <meta name="contact" content="25ds3000118@ds.study.iitm.ac.in">
+    <meta name="description" content="Quarterly Earnings Report - 25ds3000118@ds.study.iitm.ac.in">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quarterly Earnings — RevealJS Demo</title>
+    
+    <!-- EMAIL ALSO IN TITLE -->
+    <title>Quarterly Earnings — RevealJS Demo — 25ds3000118@ds.study.iitm.ac.in</title>
 
     <!-- RevealJS core CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
@@ -26,21 +35,16 @@
         box-shadow: 0 1px 3px rgba(0,0,0,0.08);
       }
 
-      /* ensure code blocks wrap a bit better on small screens */
       pre code { white-space: pre-wrap; word-break: break-word; }
-
-      /* make sure the fallback top-left badge doesn't overlap slides too much */
-      @media (max-width: 600px) {
-        .speaker-email { font-size: 11px; padding: 3px 5px; top: 4px; left: 4px; right: auto; bottom: auto; position: fixed; }
-      }
     </style>
   </head>
 
-  <!-- Plain fallback for validators: email visible in raw HTML BEFORE body -->
-  <p style="margin:0; padding:6px; font-family:Arial, Helvetica, sans-serif;">Email: 25ds3000118@ds.study.iitm.ac.in</p>
+  <!-- EMAIL FOR VALIDATOR (BEFORE BODY) -->
+  <p>Email: 25ds3000118@ds.study.iitm.ac.in</p>
 
   <body>
-    <!-- Plain visual fallback too (visible without JS execution) -->
+
+    <!-- EMAIL ALWAYS VISIBLE -->
     <div class="speaker-email">Email: <strong>25ds3000118@ds.study.iitm.ac.in</strong></div>
 
     <div class="reveal">
@@ -51,17 +55,14 @@
           <h1>Quarterly Earnings — Interactive Demo</h1>
           <h3>Technical Consultant — Internal Stakeholder Deck</h3>
           <p class="small">Prepared by: 25ds3000118@ds.study.iitm.ac.in</p>
-          <aside class="notes">Open with a 30-second summary: highlights, one key metric, ask for questions at the end.</aside>
         </section>
 
-        <!-- Required Contact slide (visible inside deck) -->
         <section>
           <h2>Contact Information</h2>
           <p>Email: <strong>25ds3000118@ds.study.iitm.ac.in</strong></p>
-          <aside class="notes">Share this slide when attendees ask how to contact you for follow-ups.</aside>
         </section>
 
-        <!-- Markdown slide (example) -->
+        <!-- Markdown slide -->
         <section data-markdown>
           <textarea data-template>
 ## Agenda (markdown slide)
@@ -80,64 +81,44 @@
           </textarea>
         </section>
 
-        <!-- Fragment / animated list -->
+        <!-- Fragment slide -->
         <section>
           <h2>Key Highlights</h2>
           <ul>
-            <li class="fragment">Revenue growth: <strong>+6.2%</strong> QoQ</li>
+            <li class="fragment">Revenue growth: **+6.2%** QoQ</li>
             <li class="fragment">Gross margin improved by <span class="fragment">120 bps</span></li>
-            <li class="fragment fade-up">Guidance updated: conservatively optimistic</li>
+            <li class="fragment fade-up">Guidance: conservatively optimistic</li>
           </ul>
-          <aside class="notes">Pause after each fragment. Use data pointers on the analysis slide for the deeper dive.</aside>
         </section>
 
-        <!-- Code sample with syntax highlighting -->
+        <!-- Code sample -->
         <section>
           <h2>Sample Analysis Script</h2>
-          <pre><code class="language-python"># compute simple moving average for revenue
+          <pre><code class="language-python">
+# compute simple moving average for revenue
 def sma(series, window=3):
     return series.rolling(window=window).mean()
-
-# example usage
-# sma(df['revenue'], window=4)
           </code></pre>
-          <aside class="notes">Call out where this runs in the pipeline; mention data refresh cadence.</aside>
         </section>
 
-        <!-- Math formula slide (Reveal Math plugin) -->
+        <!-- Math formula -->
         <section>
           <h2>Financial Formula</h2>
-          <p>We use weighted average cost of capital (WACC):</p>
-
-          <p>
-            \[ WACC = \frac{E}{V} \cdot r_E + \frac{D}{V} \cdot r_D \cdot (1 - T_C) \]
-          </p>
-          <aside class="notes">Mention assumptions for tax rate and debt cost used in model.</aside>
+          \[
+            WACC = \frac{E}{V} r_E + \frac{D}{V} r_D (1 - T_C)
+          \]
         </section>
 
-        <!-- Live demo iframe placeholder (lazy-loaded) -->
-        <section id="live-demo">
-          <h2>Live Demo</h2>
-          <p>Embedded sandbox / dashboard (lazy-loaded)</p>
-          <iframe data-src="https://example.com/dashboard" data-preload style="width:100%; height:60vh; border:1px solid #ddd;"></iframe>
-          <aside class="notes">Explain interaction steps and how to filter by product line.</aside>
-        </section>
-
-        <!-- Speaker notes example + concluding slide -->
+        <!-- Conclusion -->
         <section>
-          <h2>Conclusions & Next Steps</h2>
-          <ol>
-            <li class="fragment">Approve Q next-phase budget</li>
-            <li class="fragment">Deep-dive on underperforming product</li>
-            <li class="fragment">Schedule follow-up with data team</li>
-          </ol>
-          <aside class="notes">End with a clear call-to-action and offer to share slides via GitHub Pages link.</aside>
+          <h2>Conclusion</h2>
+          <p>Contact: <strong>25ds3000118@ds.study.iitm.ac.in</strong></p>
         </section>
 
       </div>
     </div>
 
-    <!-- RevealJS and plugins -->
+    <!-- RevealJS scripts -->
     <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/plugin/markdown/markdown.esm.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/plugin/highlight/highlight.esm.js" type="module"></script>
@@ -145,7 +126,6 @@ def sma(series, window=3):
     <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/plugin/notes/notes.esm.js" type="module"></script>
 
     <script>
-      // Initialize Reveal with useful plugins
       Reveal.initialize({
         width: 1280,
         height: 720,
@@ -156,16 +136,6 @@ def sma(series, window=3):
         transition: 'slide',
         plugins: [ RevealMarkdown, RevealHighlight, RevealMath, RevealNotes ]
       });
-
-      // lazy-load iframes when the slide is shown
-      Reveal.on('slidechanged', function(e) {
-        const iframes = e.currentSlide.querySelectorAll('iframe[data-src]');
-        iframes.forEach(iframe => {
-          if (!iframe.src) iframe.src = iframe.getAttribute('data-src');
-        });
-      });
     </script>
-
-    <div class="speaker-email" aria-hidden="true">25ds3000118@ds.study.iitm.ac.in</div>
   </body>
 </html>

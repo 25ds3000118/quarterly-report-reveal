@@ -1,41 +1,40 @@
 ---
 marp: true
-title: Product Documentation — Marp Demo
+title: Quarterly Report Documentation
 author: 25ds3000118@ds.study.iitm.ac.in
-theme: default
 paginate: true
-_class: lead
+theme: default
 ---
 
-<!-- _footer: "25ds3000118@ds.study.iitm.ac.in" -->
+# Quarterly Report Documentation
 
-<!-- Custom theme CSS embedded -->
+Prepared by **25ds3000118@ds.study.iitm.ac.in**
+
+This documentation explains the technical design, analysis, and visualization components for the quarterly report.
+
+---
+
+<!-- Custom theme overrides -->
 <style>
-/* Custom Marp theme tweaks */
 section {
-  font-family: "Inter", "Arial", sans-serif;
+  font-family: "Arial", sans-serif;
 }
-h1 { font-size: 2.4rem; margin-bottom: 0.2rem; }
-h2 { color: #0b57a4; }
-.lead { font-weight: 400; }
-.page-number { position: fixed; right: 18px; bottom: 14px; font-size: 12px; color: #666; }
-
-/* Background helper class for an image slide */
-.bg-cover {
-  background-size: cover;
-  background-position: center;
+h1, h2 {
+  color: #0b57a4;
 }
-
-/* Simple accent boxes */
-.callout {
+blockquote {
+  font-style: italic;
+  background: rgba(11,87,164,0.05);
   border-left: 4px solid #0b57a4;
   padding: 8px 12px;
-  background: rgba(11,87,164,0.04);
   border-radius: 6px;
 }
 </style>
 
----
+# Introduction
+
+This technical documentation illustrates how the quarterly report was designed using Marp.
+
 ---
 
 <!-- _backgroundImage: "images/product-hero.jpg" -->
@@ -43,33 +42,12 @@ h2 { color: #0b57a4; }
 
 # Product Overview
 
-This slide has a real background image.
-
-
-# Product Documentation (Marp)
-
-**Prepared by:** 25ds3000118@ds.study.iitm.ac.in
+This slide demonstrates a **background image**, fulfilling the assignment requirement.
 
 ---
 
-## Overview
+# Code Example
 
-- Purpose: Shipping product docs that are version-controlled and exportable.
-- Target audience: Developers, QA, Product Managers.
-
----
-
-## Key Features
-
-- Markdown-first
-- Easy export: HTML / PDF / PPTX
-- Custom themes & math support
-
----
-
-## Custom Theme Example
-
-```css
-/* This is an example theme snippet */
-section { background:#fff; color:#222; }
-h1 { color: #0b57a4; }
+```python
+def calculate_growth(revenue):
+    return (revenue[-1] - revenue[0]) / revenue[0]

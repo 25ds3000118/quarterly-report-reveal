@@ -38,7 +38,7 @@ h2 { color: #0b57a4; }
 ---
 ---
 
-<!-- _backgroundImage: "images/hero.jpg" -->
+<!-- _backgroundImage: "images/product-hero.jpg" -->
 <!-- _backgroundSize: cover -->
 
 # Product Overview

@@ -36,6 +36,15 @@ h2 { color: #0b57a4; }
 </style>
 
 ---
+---
+
+<!-- _backgroundImage: "images/hero.jpg" -->
+<!-- _backgroundSize: cover -->
+
+# Product Overview
+
+This slide has a real background image.
+
 
 # Product Documentation (Marp)
 

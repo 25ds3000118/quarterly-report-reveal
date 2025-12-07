@@ -30,7 +30,6 @@ This slide demonstrates a **background image**, fulfilling the assignment requir
 ---
 
 # Code Example
-
-```python
+python
 def calculate_growth(revenue):
     return (revenue[-1] - revenue[0]) / revenue[0]
